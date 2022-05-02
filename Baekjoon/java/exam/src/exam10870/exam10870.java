@@ -1,3 +1,4 @@
+package exam10870;
 import java.util.Scanner;
 
 public class exam10870 {
