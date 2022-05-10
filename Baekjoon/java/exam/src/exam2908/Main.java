@@ -1,0 +1,29 @@
+package exam2908;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.util.StringTokenizer;
+
+public class Main {
+    public static void main(String[] args) throws Exception{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int i = 0;
+        int[] result = new int[st.countTokens()];
+        while (st.hasMoreTokens()) {
+            result[i] = Integer.parseInt(new StringBuilder().append(st.nextToken()).reverse().toString());
+            i++;
+        }
+
+        bw.write((result[0] > result[1] ? result[0]:result[1]) + "");
+        bw.flush();
+        bw.close();   
+        
+        br.close();
+    }
+
+}
