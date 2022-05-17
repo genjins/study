@@ -21,8 +21,7 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-Baekjoon/java/exam/.vscode/launch.json
-Baekjoon/java/exam/.vscode/settings.json
+Baekjoon/java/exam/.vscode/*
 Baekjoon/java/exam/.metadata/.lock
 Baekjoon/java/exam/.metadata/version.ini
 Baekjoon/java/exam/.metadata/.mylyn/.taskListIndex/segments_1
@@ -155,3 +154,4 @@ Baekjoon/java/exam/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
 Baekjoon/java/exam/.metadata/.plugins/org.eclipse.ui.intro/introstate
 Baekjoon/java/exam/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
 Baekjoon/java/exam/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+.vscode/settings.json
